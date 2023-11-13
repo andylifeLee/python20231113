@@ -1,0 +1,2 @@
+#func.py
+print("hello")
