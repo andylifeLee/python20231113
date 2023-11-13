@@ -77,8 +77,16 @@ print(device)
 #검색
 print(device["아이폰"])
 #입력
-device["맥북"] =15
+device["맥북"] = 15
 #삭제
 del device["아이패드"]
 print(colors)
+#수정
+print(colors)
+device["아이폰"] = 6
 
+for item in device.items():
+    print(item)
+    
+for item in device.items():
+    print(item)

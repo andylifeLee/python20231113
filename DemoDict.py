@@ -18,13 +18,33 @@ for item in colors.items():
     print(item)
 
 
+
 print("---주소록---")
-phone = {"kim":"111", "lee":"222", "park":"333"}
+#전화번호 저장 
+phone = {"kim":"1111", "lee":"2222", "park":"3333"}
+print("kim" in phone)
+print("kang" not in phone)
+
+#참조를 전달
+p = phone
+p["kang"] = "1234"
+print(phone)
+print(p)
+print(id(phone))
+print(id(p))
+
+
+
+
 for item in phone.items():
     print(item)
 
 print(phone["kim"])
 print("park" in phone)
+
+
+
+
 #참조만 복사(같은 객체)
 p = phone
 
