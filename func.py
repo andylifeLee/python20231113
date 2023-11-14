@@ -1,2 +1,0 @@
-#func.py
-print("hello")
