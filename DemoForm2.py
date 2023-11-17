@@ -21,10 +21,7 @@ class DemoForm(QMainWindow, form_class):
     def firstClick(self):
         url = "https://www.daangn.com/fleamarket/"
         response = requests.get(url)
-
         soup = BeautifulSoup(response.text, "html.parser") 
-
-        #파일 생성
         f = open("dangn.txt", "wt", encoding="utf-8")
         posts = soup.find_all("div", attrs={"class":"card-desc"})
         for post in posts:
@@ -36,9 +33,8 @@ class DemoForm(QMainWindow, form_class):
             addr = addr.text.replace("\n", "")
             print("{0}, {1}, {2}".format(title, price, addr))
             f.write(f"{title}, {price}, {addr}\n")
-
         f.close() 
-        self.label.setText("당근에서 크롤랑 완료~~")
+        self.label.setText("당근에서 크롤링 완료~~")
     def secondClick(self):
         self.label.setText("두번째 버튼을 클릭")
     def thirdClick(self):

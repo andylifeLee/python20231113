@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>600</width>
-    <height>596</height>
+    <width>621</width>
+    <height>674</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,7 +19,7 @@
      <rect>
       <x>50</x>
       <y>40</y>
-      <width>81</width>
+      <width>111</width>
       <height>31</height>
      </rect>
     </property>
@@ -38,7 +38,7 @@
      <rect>
       <x>50</x>
       <y>90</y>
-      <width>81</width>
+      <width>121</width>
       <height>31</height>
      </rect>
     </property>
@@ -57,7 +57,7 @@
      <rect>
       <x>50</x>
       <y>140</y>
-      <width>81</width>
+      <width>121</width>
       <height>31</height>
      </rect>
     </property>
@@ -74,7 +74,7 @@
    <widget class="QLineEdit" name="prodID">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>180</x>
       <y>40</y>
       <width>71</width>
       <height>31</height>
@@ -84,7 +84,7 @@
    <widget class="QLineEdit" name="prodName">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>180</x>
       <y>90</y>
       <width>111</width>
       <height>31</height>
@@ -94,7 +94,7 @@
    <widget class="QLineEdit" name="prodPrice">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>180</x>
       <y>140</y>
       <width>111</width>
       <height>31</height>
@@ -104,8 +104,8 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>420</x>
-      <y>20</y>
+      <x>410</x>
+      <y>40</y>
       <width>121</width>
       <height>41</height>
      </rect>
@@ -117,8 +117,8 @@
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>420</x>
-      <y>70</y>
+      <x>410</x>
+      <y>90</y>
       <width>121</width>
       <height>41</height>
      </rect>
@@ -130,8 +130,8 @@
    <widget class="QPushButton" name="pushButton_3">
     <property name="geometry">
      <rect>
-      <x>420</x>
-      <y>120</y>
+      <x>410</x>
+      <y>140</y>
       <width>121</width>
       <height>41</height>
      </rect>
@@ -143,8 +143,8 @@
    <widget class="QPushButton" name="pushButton_4">
     <property name="geometry">
      <rect>
-      <x>420</x>
-      <y>170</y>
+      <x>410</x>
+      <y>190</y>
       <width>121</width>
       <height>41</height>
      </rect>
@@ -198,8 +198,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>600</width>
-     <height>21</height>
+     <width>621</width>
+     <height>26</height>
     </rect>
    </property>
   </widget>
@@ -214,8 +214,8 @@
    <slot>addProduct()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>504</x>
-     <y>73</y>
+     <x>394</x>
+     <y>72</y>
     </hint>
     <hint type="destinationlabel">
      <x>470</x>
@@ -230,8 +230,8 @@
    <slot>updateProduct()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>528</x>
-     <y>130</y>
+     <x>418</x>
+     <y>129</y>
     </hint>
     <hint type="destinationlabel">
      <x>470</x>
@@ -246,8 +246,8 @@
    <slot>removeProduct()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>519</x>
-     <y>176</y>
+     <x>409</x>
+     <y>175</y>
     </hint>
     <hint type="destinationlabel">
      <x>469</x>
@@ -262,8 +262,8 @@
    <slot>getProduct()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>516</x>
-     <y>220</y>
+     <x>406</x>
+     <y>219</y>
     </hint>
     <hint type="destinationlabel">
      <x>471</x>
