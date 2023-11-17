@@ -3,7 +3,6 @@
 import sys 
 from PyQt5.QtWidgets import * 
 from PyQt5 import uic 
-
 #웹서버와 통신
 import requests
 #크롤링
